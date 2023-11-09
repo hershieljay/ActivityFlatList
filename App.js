@@ -41,10 +41,12 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "column",
     justifyContent: "flex-end",
+    paddingBottom: 10
   },
   content: {
    
     justifyContent: "flex-end",
+   
   },
   name: {
     color: "black",
@@ -54,13 +56,14 @@ const styles = StyleSheet.create({
   address: {
     color: "black",
     fontSize: 15,
-    marginBottom: 10,
+  
   },
   row: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    padding: 10,
+    paddingHorizontal: 10,
+    marginBottom: 15,
   },
   initial: {
     justifyContent: "center",
